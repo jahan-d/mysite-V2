@@ -14,6 +14,11 @@
 .dakr-2{
     color : #474747;
 }
+.header {
+    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
 
 /* Nav styles */
 nav {
@@ -57,4 +62,30 @@ nav ul{
     border-radius: 5px;
     font-size: 20px;
     border : 2px solid #fd6e0a;
+    max-width : 580px;
+}
+
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: bold;
+    
+}
+.banner-discription{
+    font-size: 18px;
+    font-weight: regular;
+    margin-top: 20px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0px 230px;
+}
+.banner-profile-pic{
+    width : 580px ;
 }
