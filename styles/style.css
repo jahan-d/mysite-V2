@@ -11,14 +11,50 @@
 .text-primary {
     color:#fd6e0a; 
 }
-
-
-/* Nav styles */
-.nav {
-    display : flex;
+.dakr-2{
+    color : #474747;
 }
 
+/* Nav styles */
+nav {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    margin : 50px 200px;
+}
+nav ul li {
+    list-style : none;
+    margin-right:51px ;
+
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+nav ul{
+    display :flex;
+}
+
+.btn-primary {
+    background-color: #fd6e0a;
+    color: white;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border : none;
+}
+.btn-contact {
+    background-color: white;
+    color: #fd6e0a;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border : 2px solid #fd6e0a;
 }
